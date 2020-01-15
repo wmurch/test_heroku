@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/sdg-react-template.csproj"
+                "${workspaceFolder}/test_heroku.csproj"
             ],
             "problemMatcher": "$tsc"
         },
@@ -17,7 +17,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/sdg-react-template.csproj"
+                "${workspaceFolder}/test_heroku.csproj"
             ],
             "problemMatcher": "$tsc"
         },
@@ -28,7 +28,7 @@
             "args": [
                 "watch",
                 "run",
-                "${workspaceFolder}/sdg-react-template.csproj"
+                "${workspaceFolder}/test_heroku.csproj"
             ],
             "problemMatcher": "$tsc"
         }
