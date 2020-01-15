@@ -1,6 +1,6 @@
 dotnet publish -c Release 
 
-xcopy dockerfile ./bin/release/netcoreapp2.2/publish
+xcopy /y dockerfile .\bin\release\netcoreapp2.2\publish
 
 docker build -t test_heroku-image ./bin/release/netcoreapp2.2/publish
 
